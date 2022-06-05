@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"> 
+    <script src="conversor.js"></script>
+</head>
+
+<body>
+    <main class="titulo">
+        <h1>Conversor de Moneda</h1>
+    </main>
+    <div class="formulario">
+        <form action="">
+            <p class="parrafo">Selecione el tipo de moneda a cambiar</p>
+            <input class="radio2" type="radio" name="cambio" id="uno">Euro
+            <input class="radio2" type="radio" name="cambio" id="dos">Dolar
+            <p>Ingrese el monto a cambiar</p>
+            <input class="monto" type="number" id="valor" min="1" max="100000">
+            <input class="boton"  type="button" id="Cotizador" value="cotizador" onclick ="convertir()">
+        </form>
+    </div>
+</body>
+
+</html>
