@@ -1,9 +1,16 @@
-let dolar =123.85;
-let euro = 128.78;
+document.addEventListener("submit",()=>{
+    convertir()
+})
 
 const  Moneda = []
 const  Valor  = []
 
+const inputNombre = document.querySelector("#inputNombre")
+const inputValor  = document.querySelector("#inputValor")
 
-const conver  = document.querySelector("button")
-conver.onclick = pesos();
+
+
+
+
+
+

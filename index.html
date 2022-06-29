@@ -13,30 +13,39 @@
 </head>
 
 <body>
-    <main class="titulo">
-        <h1>Conversor de Moneda</h1>
-    </main>
+
+
+
     <div class="formulario">
-        <form>
-            <p class="parrafo">Selecione el tipo de moneda a cambiar</p>
-            <p>Ingrese el monto a cambiar</p>
-            <input class="monto" type="number">
-           <button id="btn" class="boton">Cotizar</button>
-            <input type="submit" value="Agregar Otro Tipo de Moneda">
+        <h1 class="titulo">Conversor de Moneda</h1>
+        <form id="miBoton">
+            <p class="parrafo">Selecione el tipo de moneda a cambiar en $ARS</p>
+            <p class="ingress">Ingrese el monto a cambiar </p>
+            <input type="number" id="valor" class="d1">
+            <div>
+                <input type="submit" class="boton" id="submit">
+           </div>
+
         </form>
     </div>
     <section class="moneda">
         <form>
-            <ul>
-                <select class="d1">
-                    <option id="" value="">Dolar</option>
-                    <option value="">Euro</option>
-                    <option value="">Peso Mexicano</option>
-                    <option value="">Libra sterlina</option>
-                </select>
-            </ul>
+            <input type="radio" name="cambio" id="uno">Dolar
+            <input type="radio" name="cambio" id="dos">Euro
         </form>
     </section>
+
+    <section>
+        <form>
+            
+            <input  type="text"  class="box" placeholder="Ingrese Nombre de moneda" id="inputNombre">
+            <input type="tel" class="box1" placeholder="Ingrese Valor De Nueva Moneda" id="inputValor">
+        </form>
+    </section>
+  
+
+
+
 </body>
 
 </html>

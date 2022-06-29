@@ -1,57 +1,57 @@
 body{
-    background-image:url(./img/thumb-1920-24313.jpg);
+    background-color: rgb(82, 82, 194);
 }
 .titulo{
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    background: rgb(2, 2, 2);
-    color: white;
-    margin: auto;
-    margin-top: 0px;
-    border-radius: 4px;
-    color: white;
-    border: #f6f6f6 solid 3px;
+    background: white;
+    color: rgb(10, 10, 10);
+   border-radius: 20px;
+    text-align: center; 
+    position: absolute;
+    top: 10px;
+    right: 40%;
+   
 }
 .formulario{
     display: flex;
     justify-content: center;
-    width: 600px;
-    height: 300px;
-    background: #020202ad;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background: white;
     margin: auto;
-   
     margin-top: 0px;
-    border-radius: 2px;
-    color: white;
-    border: #f6f6f6 solid 1px;
-
+    border-radius: 20px;
 }
  
 .monto{
-    display: block;
-    bottom: 0%;
-    width:100% ;
-    height: 10%;
-    margin-right: 0%}
-
+    position: relative;
+    bottom: 4%;
+    right: -10%;
+    width: 80%;
+    height: 30%;
+    margin-right: 0%;
+}
  
 .boton{
     width: 100%;
-    height: 10%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 32%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
-    background-color: rgba(0, 0, 0, 0.274);
-    color:white ;
-    
-    
+    background-color: rgb(82, 82, 194);
+    color:white;
+    border-radius: 5px;
 }
-
 .parrafo{
-    background-color: rgb(8, 8, 8);
+    
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200%;
-    color:rgb(255, 250, 250);
+    font-size: 100%;
+    color:black;
+    height: 5%; 
+    text-align: center;
+    position: absolute;
+    top: 10%;
+
+
     
 }
 
@@ -62,14 +62,44 @@ body{
 
 .moneda{
     position: absolute;
-    right: 45%;
-    top: 36%;
+    right: 46%;
+    top: 20%;
     
     
 }
 
 .d1{
-    height: 40px;
-    width: 180px;
+    height: 20%;
+    width: 100%;
     font-size:15px;
 }
+
+
+.bit{
+    position: absolute;
+    right: 37%;
+    bottom: 29%;
+    width: 26%;
+}
+.ingress{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+width: 26%;
+height: 5%;
+    position: absolute;
+right: 37%;
+top: 330px;
+
+}
+
+.box1{
+    width: 26%;
+    height: 5%;
+    position: absolute;
+    right: 37%;
+    top: 380px;
+    
+    }
