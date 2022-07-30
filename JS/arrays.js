@@ -10,7 +10,12 @@ document.addEventListener("submit", (e)=>{
     e.preventDefault()
     agregarMonedaNueva()
     }
+
 )
+
+document.getElementById("botonN2").onclick = ()=>{
+    agregarMonedaNueva()
+}
 
 function agregarMonedaNueva() {
     const monedaNueva = {

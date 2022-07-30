@@ -104,3 +104,40 @@ top: 330px;
     top: 380px;
     
     }
+
+    .boton2{
+        position: absolute;
+        right: 37%;
+        top: 65%;
+        width: 26%;
+        color: white;
+        background-color: rgb(82, 82, 194);
+    }
+
+    .caja0{
+        background-color: black;
+        width: 30%;
+        position: absolute;
+        top: 5%;
+        right: 67%;
+       
+    }
+
+    .Button{
+        color: white;
+        font-size: 150%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .Button2{
+        background-color: black;
+        color: white;
+        width: 30%;
+        position: absolute;
+        top: 10%;
+        right: 67%;
+        
+    }

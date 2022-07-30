@@ -16,6 +16,6 @@ const datosF = (mensaje, bgColor, tiempo)=> {
 }
 
 const datosFalse = ()=> {
-    faltanCargarDatos() ? datosF("Complete todos los datos solicitados.", 'darkred') : agregarMoneda()
+    faltanCargarDatos() ? datosF("Complete todos los datos solicitados a convertir.", 'darkred') : agregarMoneda()
 }
 
